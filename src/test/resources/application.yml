@@ -1,7 +1,11 @@
 spring:
   datasource:
     driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
-    url: jdbc:tc:mariadb:10:///pharmacy
+    url: jdbc:tc:mariadb:10.6:///pharmacy
+    type: com.zaxxer.hikari.HikariDataSource
+  #    username: root
+#    password: root1234!!
+  #    url: jdbc:tc:mariadb:10:///pharmacy
   jpa:
     hibernate:
       ddl-auto: create

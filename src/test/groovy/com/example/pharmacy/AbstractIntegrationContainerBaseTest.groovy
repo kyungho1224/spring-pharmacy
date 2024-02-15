@@ -11,6 +11,7 @@ import spock.lang.Specification
  * Created by KimKyungHo on 2024-02-15(015)
  */
 
+@Testcontainers
 @SpringBootTest
 abstract class AbstractIntegrationContainerBaseTest extends Specification {
 

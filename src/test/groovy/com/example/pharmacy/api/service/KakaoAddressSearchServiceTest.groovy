@@ -2,8 +2,6 @@ package com.example.pharmacy.api.service
 
 import com.example.pharmacy.AbstractIntegrationContainerBaseTest
 import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.boot.test.context.SpringBootTest
-import spock.lang.Specification
 
 /**
  * Created by KimKyungHo on 2024-02-15(015)
